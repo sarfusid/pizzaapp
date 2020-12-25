@@ -1,0 +1,27 @@
+{
+  "name": "pizzaapp",
+  "version": "1.0.0",
+  "description": "This is pizza website",
+  "main": "index.js",
+  "scripts": {
+    "test":"node server.js",
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pizzaapp"
+  },
+  "keywords": [
+    "pizza"
+  ],
+  "author": "Sarfarz",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

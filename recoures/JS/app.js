@@ -1,0 +1,1 @@
+consol.log('hello from app JS')
